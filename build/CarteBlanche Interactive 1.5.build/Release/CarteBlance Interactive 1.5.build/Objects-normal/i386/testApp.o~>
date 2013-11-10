@@ -1,0 +1,35 @@
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:5:2: warning: #warning ofxVectorMath has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:6:2: warning: #warning Remove all references to ofxVectorMath.h and use ofVectorMath instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:8,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec2f.h:5:2: warning: #warning ofxVec2f has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec2f.h:6:2: warning: #warning Remove all references to ofxVec2f.h and use ofVec2f instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:9,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec3f.h:5:2: warning: #warning ofxVec3f has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec3f.h:6:2: warning: #warning Remove all references to ofxVec3f.h and use ofVec3f instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:10,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec4f.h:5:2: warning: #warning ofxVec4f has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVec4f.h:6:2: warning: #warning Remove all references to ofxVec4f.h and use ofVec4f instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:11,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxMatrix3x3.h:5:2: warning: #warning ofxMatrix3x3 has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxMatrix3x3.h:6:2: warning: #warning Remove all references to ofxMatrix3x3.h and use ofMatrix3x3 instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:12,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxMatrix4x4.h:5:2: warning: #warning ofxMatrix4x4 has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxMatrix4x4.h:6:2: warning: #warning Remove all references to ofxMatrix4x4.h and use ofMatrix4x4 instead.
+In file included from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxVectorMath.h:13,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.h:7,
+                 from /Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/src/testApp.cpp:1:
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxQuaternion.h:5:2: warning: #warning ofxQuaternion has been deprecated.
+/Developer/of_preRelease_v007_osx/apps/Playmind/CarteBlanche Interactive 1.5/../../../addons/ofxVectorMath/src/ofxQuaternion.h:6:2: warning: #warning Remove all references to ofxQuaternion.h and use ofQuaternion instead.
+i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
