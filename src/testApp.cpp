@@ -27,7 +27,9 @@ void testApp::setup(){
 	textTex.allocate(ofGetWidth(),300, GL_RGBA);
 	
 	//UI
+	smsTriggerIP = "hello hi";
 	
+	smsIP = "192.168.7.254";
 	drawFill = true;
 	float dim = 16;
 	float xInit = OFX_UI_GLOBAL_WIDGET_SPACING; 
@@ -62,8 +64,11 @@ void testApp::setup(){
 
     gui->addSpacer(length, 2);
 	gui->addWidgetDown(new ofxUILabel("TEXT", OFX_UI_FONT_MEDIUM));
-	gui->addMinimalSlider("TEXT SPEED", 0, 5, textSpeed, 95, dim);
 	
+	gui->addWidgetDown( new ofxUITextInput("UDP_TARGET_IP", "", 95, dim)); //("UDP_TARGET_IP",smsTriggerIP, 95,dim); //smsIP
+	
+	gui->addMinimalSlider("TEXT SPEED", 0, 5, textSpeed, 95, dim);
+		
 	ofAddListener(gui->newGUIEvent,this,&testApp::guiEvent);
 	gui->loadSettings("GUI/guiSettings.xml"); 
 
@@ -79,7 +84,7 @@ void testApp::setup(){
 	triggerInConnection.SetNonBlocking(true);
 	
 	triggerOutConnection.Create();
-	triggerOutConnection.Connect("192.168.7.254",7305);   // MAC pro IP in Joliette
+	triggerOutConnection.Connect(smsIP,7305);   //"192.168.7.254" MAC pro IP in Joliette: 
 	triggerOutConnection.SetNonBlocking(true);
 	
 	
@@ -904,8 +909,12 @@ void testApp::guiEvent(ofxUIEventArgs &e){
 		
 		ofxUISlider *slider = (ofxUISlider *) e.widget;
 		textSpeed = slider->getScaledValue();
-	}
 	
+	}else if(name == "UDP_TARGET_IP"){
+		ofxUITextInput *text = (ofxUITextInput *) e.widget;
+		smsIP = text->getTextString().c_str();
+		//cout << smsIP;
+	}
 		
 	
 			
@@ -1111,7 +1120,7 @@ void testApp::mouseDragged(int x, int y, int button){
 		
 	if(button == 2){
 	
-		//Map mouse to offscreen width
+		//This mapping allows for offscreen drawing, which enables removing of the boids
 		int mx = (int)ofMap(x,0, ofGetWidth(),-100,  ofGetWidth()+100);
 		int my = (int)ofMap(y,0, ofGetHeight(),   0, ofGetHeight());
 		

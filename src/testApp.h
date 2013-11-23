@@ -58,6 +58,7 @@ public:
 	// UI 
 	
 	ofxUICanvas *gui;
+	ofxUITextArea *textbox;
 	void guiEvent(ofxUIEventArgs &e);
 	bool drawFill; 
 	
@@ -69,7 +70,8 @@ public:
 	ofxUDPManager triggerOutConnection;
 
 	string UDPmessage;
-	
+	const char *smsIP;
+	string smsTriggerIP;
 	
 			
 	
